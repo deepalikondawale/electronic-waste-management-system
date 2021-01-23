@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.header {
+              
+  height: 170px;
+  width: 100%;
+  background-image: url("../img/e-Waste.jpg");
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+                
+
+.topnav {
+  background-color: #334;
+  overflow: hidden;
+  padding-left: 38em;
+  padding-right: auto;    
+  text-align: center;
+}
+
+.topnav a {
+  float: left;
+  
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: inline;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
